@@ -7,22 +7,19 @@ body{
     opacity: ;
 }
 
-.top{
-    color: white
+.title img{
+    width: 300px;
+    height: 300px;
+    
+    border-radius: 100%;
 }
 
-.gallery{
-    background-color: antiquewhite;
-    opacity: 0.9;
+.overlay{
+    background-color: black;
+    opacity: 0.7;
 }
 
 
-img{
-    width: ;
-    height: px;
-    border-radius: %;
-    }
-
-.main{
-    color: black
+.modal{
+    color: black;
 }
