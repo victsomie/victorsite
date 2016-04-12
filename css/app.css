@@ -1,9 +1,28 @@
 body{
-    background-image: url(/img/main-bg2.gif);
+    background-image: url(/img/gif-bg.gif);
     background-position: center;
-    background-repeat: round;
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+    opacity: ;
 }
 
 .top{
     color: white
+}
+
+.gallery{
+    background-color: antiquewhite;
+    opacity: 0.9;
+}
+
+
+img{
+    width: ;
+    height: px;
+    border-radius: %;
+    }
+
+.main{
+    color: black
 }
