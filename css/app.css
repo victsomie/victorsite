@@ -1,0 +1,9 @@
+body{
+    background-image: url(/img/main-bg2.gif);
+    background-position: center;
+    background-repeat: round;
+}
+
+.top{
+    color: white
+}
