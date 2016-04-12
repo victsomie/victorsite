@@ -1,12 +1,13 @@
 /*===========Style intro section========*/
 body{
-    background-color: rgb(144, 200, 200);
+    background: rgba(0, 0, 0, 0.2);
+    
 }
 
 #intro{
     text-align: center;
     min-height: 500px;
-    background-image: url(/img/sl_codecreater_programmer-e1302578302661.gif);
+    background-image: url(/img/sl_codecreater_programmer-e1302578302661.gi);
     background-size: cover;
     background-position: 0px -100px;
     background-color: red;
@@ -15,8 +16,7 @@ body{
     bottom: ;
     right: 0;
     top: ;
-
-    z-index: 1
+    z-index: 1;
 }
 #intro nav {
     background-color: wheat;
@@ -29,9 +29,7 @@ body{
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
 }
-#intro{
-    
-}
+
 .top-text{
     position: relative;
     min-height: 300px;
@@ -39,5 +37,13 @@ body{
     background-color: black;
     opacity: 0.2;
     color: white;
-    font-weight: 800
+    font-weight: 800;
+}
+
+
+#form{
+    background-color:beige;
+    opacity: 0.9;
+    width: 50%;
+    margin: auto
 }
