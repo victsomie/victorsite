@@ -14,6 +14,52 @@ h1{
     font-stretch:
 }
 
+.shout{
+    font-family: 'Poiret One', cursive;
+}
+
+
+
+
+
+/*=====Style social here======*/
+.social .fa{
+    padding: 0.3em;
+}
+
+
+.fa-facebook{
+    color: white
+}
+.fa-facebook:hover{
+    color: blue;
+    background:     
+}
+.fa-twitter:hover{
+    color:cyan
+}
+
+.fa-google{
+    color: yellow
+}
+.fa-google:hover{
+    color: darkorange
+}
+
+
+
+
+/*====Start styling form here======*/
+.to-form{
+    box-sizing: border-box;
+    padding: 0.7em;
+    background-color: darkorange;
+    color: wheat;
+    border-radius: 5px;
+}
+
+
+
 
 
 

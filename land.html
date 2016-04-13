@@ -9,6 +9,9 @@
 
 
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  
+  
   <!--Stretchy nav here!-->
   <link rel="stylesheet" href="/stretchy-navigation/css/style.css">
   <!-- Resource style -->
@@ -23,7 +26,7 @@
 
 <body>
 
-
+<!--=======Navigation======-->
   <div class="row foot-nav">
     <div class="column small-12 small-centered">
       <nav aria-label="You are here:" role="navigation">
@@ -40,7 +43,75 @@
 
   </div>
   
+  <s>
+  <div class="row">
+    <div class="text-center social">
+          <a href="www.facebook.com"><span class="fa fa-facebook fa-3x"></span></a>
+
+      <a href="www.twitter.com"><span class="fa fa-twitter fa-3x"></span></a>
+      <a href="www.google.com"><span class="fa fa-google fa-3x"></span></a>
+  </div>
+  </div>
   
+  
+  
+  
+  
+  
+   <!--======Link to Form in a modal=======-->
+  <p class="text-center button-danger "><a data-toggle="exampleModal8"><button class="to-form">Talk to me!</button></a></p>
+  <!---======Begin form here=====---->
+ 
+   <div class="large reveal modal" id="exampleModal8" data-reveal data-animation-in="spin-in" data-animation-out="spin-out">
+    <p>Talk to me!</p>
+     
+     
+
+    <div class="row">
+      <div class="columns small-12 medium-8 large-6 small-centered large-centered">
+        <form action="https://formspree.io/victsomie@yahoo.com" method="POST">
+          <div class="medium-12 columns">
+            <label>
+              <h1>Your Name</h1>
+              <input type="text" name="name" placeholder=".medium-6.columns">
+            </label>
+          </div>
+          <div class="medium-12 columns">
+            <label>
+              <h1>E-mail</h1>
+              <input type="text" name="email" placeholder=".medium-6.columns">
+            </label>
+          </div>
+          <div class="medium-12 columns">
+            <fieldset class="fieldset">
+              <legend>Check these out</legend>
+              <input id="checkbox12" type="checkbox" name="Choice 1: ">
+              <label for="checkbox12">Checkbox 1</label>
+              <input id="checkbox22" type="checkbox" name="Choice 2: ">
+              <label for="checkbox22">Checkbox 2</label>
+              <input id="checkbox32" type="checkbox" name="Choice 3">
+              <label for="checkbox32">Checkbox 3</label>
+            </fieldset>
+          </div>
+
+          <div class="medium-12 columns">
+            <label>
+              <h1>Leave comments</h1>
+              <textarea placeholder="None" name="comments" rows="3"></textarea>
+            </label>
+
+          </div>
+
+          <input type="submit" value="Send">
+
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </div>
   
   
   
