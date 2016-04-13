@@ -12,57 +12,47 @@
   <!-- Resource style -->
 
   <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="/font-awesome-4.5.0/css/font-awesome.css">
 
 
   <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
-  <div class="top-bar">
-    <div class="top-bar-title">
-      <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-      <button class="menu-icon dark" type="button" data-toggle></button>
-    </span>
-      <strong>Site Title</strong>
-    </div>
-    <div id="responsive-menu">
-      <div class="top-bar-right">
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li>
-            <a href="#">One</a>
-            <ul class="menu vertical">
-              <li><a href="#">One</a></li>
-              <li><a href="#">Two</a></li>
-              <li><a href="#">Three</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Two</a></li>
-          <li><a href="#">Three</a></li>
-        </ul>
-      </div>
-    </div>
+
+  <div class="row animated pulse slideInUp">
+    <p class="text-center">Open arms</p>
+
   </div>
 
+
+
+
+
+
   <div class="row text-center">
-    <h1>Something here</h1>
-  </div>
-  <div class="row overlay">
-    <div class="large-6 columns text-right">
-      <div class="row title">
-        <div class="text-right">
-          <img src="/img/vic.jpg">
-        </div>
+    <div class="column small-12 medium-4 title">
+      <div class="text-center">
+        <img src="/img/vic.jpg">
       </div>
+    </div>
+    <div class="small-12 medium-8 columns text-left">
 
       <h1>Victor</h1>
       <h2>I am Front-end developer </h2>
+      <a href="www.facebook.com"><span class="fa fa-facebook fa-lg"></span></a>
+
+      <a href="www.twitter.com"><span class="fa fa-twitter fa-2"></span></a>
+      <a href="www.google.com"><span class="fa fa-google fa-lg"></span></a>
+
     </div>
+
+  </div>
+  <div class="row overlay animated rollIn">
+
     <div class="large-6 columns">
       <h1>Skills Profile</h1>
-      <p>HTML/CSS</p>
-      <p>HTML/CSS</p>
-      <p>HTML/CSS</p>
-      <p>HTML/CSS</p>
       <p>HTML/CSS</p>
     </div>
   </div>
@@ -74,85 +64,76 @@
 
     <div class="row">
       <div class="columns small-12 medium-8 large-6 small-centered large-centered">
-        <form>
+        <form action="https://formspree.io/victsomie@yahoo.com" method="POST">
           <div class="medium-12 columns">
-            <label><h1>Your Name</h1>
+            <label>
+              <h1>Your Name</h1>
               <input type="text" name="name" placeholder=".medium-6.columns">
             </label>
           </div>
           <div class="medium-12 columns">
-            <label><h1>E-mail</h1>
+            <label>
+              <h1>E-mail</h1>
               <input type="text" name="email" placeholder=".medium-6.columns">
             </label>
           </div>
           <div class="medium-12 columns">
-            <label><h1>Leave comments</h1>
+            <fieldset class="fieldset">
+              <legend>Check these out</legend>
+              <input id="checkbox12" type="checkbox" name="Choice 1: ">
+              <label for="checkbox12">Checkbox 1</label>
+              <input id="checkbox22" type="checkbox" name="Choice 2: ">
+              <label for="checkbox22">Checkbox 2</label>
+              <input id="checkbox32" type="checkbox" name="Choice 3">
+              <label for="checkbox32">Checkbox 3</label>
+            </fieldset>
+          </div>
+
+          <div class="medium-12 columns">
+            <label>
+              <h1>Leave comments</h1>
               <textarea placeholder="None" name="comments" rows="3"></textarea>
             </label>
 
           </div>
 
+          <input type="submit" value="Send">
 
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
 
         </form>
       </div>
     </div>
-    
+    <div class="row">
+      <img class="thumbnail" src="/img/sl_codecreater_programmer-e1302578302661.gif" alt="Photo of Uranus.">
+      <img class="thumbnail" src="/img/sl_codecreater_programmer-e1302578302661.gif" alt="Photo of Uranus.">
+      <img class="thumbnail" src="/img/sl_codecreater_programmer-e1302578302661.gif" alt="Photo of Uranus.">
+      <img class="thumbnail" src="/img/sl_codecreater_programmer-e1302578302661.gif" alt="Photo of Uranus.">
+      <img class="thumbnail" src="/img/sl_codecreater_programmer-e1302578302661.gif" alt="Photo of Uranus.">
 
 
 
-
-
-
-    <button class="close-button" data-close aria-label="Close reveal" type="button">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  
-  <p><button type="button" class="button" data-toggle="motion-example-1" id="motion-exmple-1">Fade</button><button type="button" class="button" data-toggle="motion-example-2">Slide</button></p>
-  
-  
-      <div data-toggler data-animate="fade-in fade-out" class="callout secondary" id="motion-exmple-2">
-  <p>This panel fades.</p>
-</div>
-
-<div data-toggler data-animate="slide-in-down slide-out-up" class="callout secondary">
-  <p>This panel slides.</p>
-</div>
-
-
-  
-  
-  <p><button type="button" class="button" data-toggle="motion-example-1">Fade</button><button type="button" class="button" data-toggle="motion-example-2">Slide</button></p>
-<div class="row">
-  <div class="small-6 columns">
-    <div data-toggler data-animate="fade-in fade-out" class="callout secondary ease" id="motion-example-1">
-      <p>This panel <strong>fades</strong>.</p>
     </div>
-  </div>
-  <div class="small-6 columns">
-    <div data-toggler data-animate="slide-in-down slide-out-up" class="callout secondary ease" id="motion-example-2">
-      <p>This panel <strong>slides</strong>.</p>
-    </div>
-  </div>
-</div>
-  
-  
-  
-
-
-  <script src="js/vendor/jquery.js"></script>
-
-  <!--Nav js-->
-  <!--<script src="/stretchy-navigation/js/main.js"></script>-->
-  <!-- Resource jQuery -->
 
 
 
 
-  <script src="js/vendor/what-input.js"></script>
-  <script src="js/vendor/foundation.js"></script>
-  <script src="js/app.js"></script>
+
+
+    <script src="js/vendor/jquery.js"></script>
+
+    <!--Nav js-->
+    <!--<script src="/stretchy-navigation/js/main.js"></script>-->
+    <!-- Resource jQuery -->
+
+
+
+
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
