@@ -4,16 +4,10 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     color: white;
-    opacity: 0.9;
+    opacity: 0.6;
+    border-radius: 100%;
 }
-.breadcrumbs{
-    background: black;
-    
-}
-.breadcrumbs li{
-    font-size: 1.5em;
-    color: aliceblue;
-}
+
 
 
 
