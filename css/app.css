@@ -5,17 +5,20 @@ body{
     background-size: 100% 100%;
     color: white;
     opacity: 0.9; 
+    border-radius: 20px
 }
 h1, h2,h3, h4, h5, h6, p{
     font-family: 'PT Sans', sans-serif;
 }
 h1{
-    font-weight: 700;
-    font-stretch:
+    font-weight: 700; 
 }
 
-.shout{
+.shout p{
     font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    padding:5%
+        
 }
 
 
@@ -97,13 +100,13 @@ h1{
 
 .foot-nav{
     position: fixed;
+    display: block;
     bottom: 0;
-    right:0;
-    
+    right: 3px
 }
 .foot-nav a{
     font-family: 'PT Sans', sans-serif;
-    font-size: 1.2em;
+    font-size: 2.2em;
     font-weight: 700;
     color:chocolate;
         
