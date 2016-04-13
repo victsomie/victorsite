@@ -43,3 +43,22 @@ h1{
     box-sizing: border-box;
     padding: 20px
 }
+
+
+
+
+
+
+.foot-nav{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    
+}
+.foot-nav a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color:chocolate;
+        
+}
