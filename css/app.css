@@ -1,7 +1,10 @@
-body{
+html{
     background-image: url(/img/land-bg.jpg);
-    background-position: center;
-    background-repeat:no-repeat;
+        background-size: cover;
+}
+
+body{
+
     background-size: cover;
     color: white;
     opacity: 0.9; 
@@ -14,10 +17,29 @@ h1{
     font-weight: 700; 
 }
 
+
+
+.top-container{
+    padding-bottom: 10px;
+    background-color:darkgrey;
+    background: linear-gradient(white,  gray, black); /* Standard syntax */
+    background-image: url(/img/main-bg3.gif);
+    background-size: cover;
+    color: white;
+}
+
+.shout{
+    padding: 5%;
+}
+.shout h1{
+    font-family: 'Poiret One', cursive;
+
+        
+}
 .shout p{
     font-family: 'Poiret One', cursive;
     font-size: 100%;
-    padding:5%
+    padding:;
         
 }
 
@@ -62,17 +84,10 @@ h1{
 }
 
 
-
-
-
-
 .title img{
     width: 200px;
     height: 200px;
-    
-    
     border-radius: 100%;
-    box-shadow: 
 }
 
 .overlay{
@@ -95,6 +110,13 @@ h1{
 
 
 /*====Portifolio====*/
+.folio-container{
+    background: black
+}
+.folio{
+    padding: 20px; 
+    opacity: ;
+}
 .folio img{
     margin: 0;
     width: ;
@@ -102,10 +124,12 @@ h1{
 
 
 .foot-nav{
+    visibility: hidden;
     position: fixed;
     display: block;
     bottom: 0;
-    right: 3px
+    right: 3px;
+    top: 0
 }
 .foot-nav a{
     font-family: 'PT Sans', sans-serif;
