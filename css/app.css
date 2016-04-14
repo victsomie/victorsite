@@ -2,10 +2,10 @@ body{
     background-image: url(/img/land-bg.jpg);
     background-position: center;
     background-repeat:no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     color: white;
     opacity: 0.9; 
-    border-radius: 20px
+    
 }
 h1, h2,h3, h4, h5, h6, p{
     font-family: 'PT Sans', sans-serif;
@@ -36,7 +36,7 @@ h1{
 }
 .fa-facebook:hover{
     color: blue;
-    background:     
+     
 }
 .fa-twitter:hover{
     color:cyan
@@ -97,7 +97,7 @@ h1{
 /*====Portifolio====*/
 .folio img{
     margin: 0;
-    width: 100%;
+    width: ;
 }
 
 
