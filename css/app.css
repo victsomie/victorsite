@@ -21,22 +21,20 @@ h1{
 
 .top-container{
     padding-bottom: 10px;
-   
-    background: linear-gradient(white,  gray, black); /* Standard syntax */
-  
+    background-image: url(/img/main-bg3.gif);
     background-size: cover;
-    
     color: white;
 }
 .bottom-container{
     padding-bottom: 10px;
     background-color:darkgrey;
     background: linear-gradient(white,  gray, black); /* Standard syntax */
-    background-image: url(/img/main-bg3.gif);
     background-size: cover;
     color: white;
 }
-
+.bottom-container h1{
+    color: darkorange
+}
 
 
 
