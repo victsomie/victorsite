@@ -25,6 +25,7 @@ h1{
     background: linear-gradient(white,  gray, black); /* Standard syntax */
   
     background-size: cover;
+    
     color: white;
 }
 .bottom-container{
